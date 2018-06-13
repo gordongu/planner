@@ -1,0 +1,70 @@
+.container {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.row {
+
+}
+
+.col {
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.date-row {
+
+}
+
+.date-col {
+  cursor: pointer;
+  padding-bottom: 64px;
+}
+
+.active {
+  background-color: lightBlue;
+}
+
+.event-row {
+
+}
+
+.event-col {
+
+}
+
+#month {
+  font-size: 150%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#year {
+  font-size: 125%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#day {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#date {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#form {
+  display: none;
+}
+
+#menu-button {
+  float:left;
+  cursor: pointer;
+  margin: 8px;
+}
+
+#menu {
+
+}

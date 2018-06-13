@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>index</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="index.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+		<script src="client/scripts.js"></script>
+	</head>
+	<body>
+		<!-- <div id="menu-button">Menu</div>
+		<div id="menu">
+			<div>Test</div>
+		</div> -->
+		<div class="container">
+			<h1>Calendar</h1>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col" id="month"></div>
+			</div>
+			<div class="row">
+				<div class="col" id="year"></div>
+			</div>
+			<div class="row">
+				<div class="col" id="day">
+					<div class="row">
+						<div class="col">Sunday</div>
+						<div class="col">Monday</div>
+						<div class="col">Tuesday</div>
+						<div class="col">Wednesday</div>
+						<div class="col">Thursday</div>
+						<div class="col">Friday</div>
+						<div class="col">Saturday</div>
+					</div>
+				</div>
+			</div>
+			<div id="date">
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col" id="form">
+					<form onsubmit="addEvent(); return false;">
+            <div class="form-group">
+              <label for="input">Event</label>
+              <input type="text" class="form-control" id="input" placeholder="Enter event description">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+				</div>
+			</div>
+		</div>
+
+		<script src="client/index.js"></script>
+	</body>
+</html>
